@@ -1,5 +1,10 @@
 # hospital_mgmt_system
-A patient and user tracking system for a theoretical hospital.
-My name is Erik Smistad, I'm currently a student at Mount Royal in the Bachelor of Computer Information Systems program. This program is probably my crowning achievement so far. 
+A patient and user tracking system for a theoretical, magical hospital where patients might be infected by a zombie plague.
+My name is Erik Smistad, I'm currently a student at Mount Royal in the Bachelor of Computer Information Systems program. This program is probably my crowning achievement so far.  
 
 Please note that the ConsoleInteraction and Menu classes were built by my teacher at the time, Jordan Kidney and they are used with his permission.
+
+The files used by the program are called "small.txt" and "users.txt". 
+The small.txt file contains an example of the current state of the hospital. The first number at the top of the file is how many rooms are in the system. Next, we have details on one of the rooms, for example "1,Death,2". What this means is that the room is number 1, it is called "Death" and it has two beds. The final details on the beds will come next. If the bed is open, it will be listed as (for example) "1,OPEN" meaning it's bed number one and it's open. If the bed is occupied, it will be listed as (for example) "2,TAKEN,John Doe,23,INFECTED". This means it is bed number two, it's occupied, the patient is named John Doe, John Doe is 23 years old and he is currently infected.
+
+The users.txt file contains an example of the users in the system. The first number at the top of the file is how many users are currently in the system. The users can either be a basic user or an administrator. If the user is just a basic user, their data will be listed as (for example) "kidney,guess,E,Jordan Kidney,1862,100". This means their username is kidney, their password is guess, they are a basic user (E), their full name is Jordan Kidney, they were born in 1862, and they have a zombie killing level of 100 (a more or less useless statistic at the moment). If the user is an admin, their data will be listed as (for example) "jordan,bunny,A,Jordan Pratt,1726". This means their username is jordan, their password is bunny, they are an admin (A), their full name is Jordan Pratt and they were hired in 1726.
