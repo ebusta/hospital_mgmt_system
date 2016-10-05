@@ -15,14 +15,4 @@ public class MagicalInfirmarySystem
         run.start();
     }
     
-    /* To Do:
-     * 4. Jar Files/Packages?
-     */
-    
-    /* Questions for Kidney
-     * 2. In Login, there are several similar username searches. Do they all need to be there?
-     *    Does it matter that the login version cares about capitalization, but the admin 
-     *    one doesn't? 
-     * 3. 
-     */
 }
